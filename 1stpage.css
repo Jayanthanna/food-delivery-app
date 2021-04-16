@@ -1,0 +1,437 @@
+/* body tag */
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* image location */
+/* div id image-loaction tag */
+#image-location
+{
+    margin: 0;
+    padding: 0;
+    background-image: url("1st page images\\backgroundimage1.jpg");
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* sign in anchor tag */
+#sign-in
+{
+    padding-left: 86%;
+    padding-right: 20px;
+    color:#ff8826;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+    overflow: hidden;
+    white-space:nowrap ;
+    text-decoration: none;
+}
+/* login anchor tag */
+#log-in
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+    overflow: hidden;
+    white-space:nowrap ;
+    text-decoration: none;
+}
+/*  heading tag(food for every mood) */
+#image-location-heading
+{
+    margin: 0;
+    display: block;
+    padding-top: 265px;
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 2px;
+}
+/* input tag on top of image */
+#image-location-input
+{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 200px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+/* locate me anchor tag */
+#image-location-anchor
+{
+    border-radius: 10px;
+    background-color: #ff8826;
+    padding: 15px 3px 15px 3px ;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+}
+
+/* linear gradient with 3 images and their description */
+#gradient
+{
+    background-image: linear-gradient(to right, brown,orange,rgb(255, 217, 93) );
+    height: 420px;
+}
+/* images and their description */
+#flexbox1,#flexbox2
+{
+    display: flex;
+}
+/* images */
+#flexpic-1,#flexpic-2,#flexpic-3
+{
+    padding: 20px 3% 0 8%;
+    height: 300px;
+    width: 22%;
+    min-width: 22%;
+}
+/* descriptions */
+#flex-1,#flex-2,#flex-3
+{
+    width: 22%;
+    padding: 0 5% 0 100px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+/* sticky tag that appears when scrolling down page */
+#sticky
+{
+    display: none;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    animation: anim-sticky 0.5s ease-in; 
+}
+/*  animation */
+@keyframes anim-sticky {
+    0%{ opacity: 0;}
+    10%{opacity: 0.1;}
+    20%{opacity: 0.2;}
+    30%{opacity: 0.3;}
+    40%{opacity: 0.4;}
+    50%{opacity: 0.5;}
+    60%{opacity: 0.6;}
+    70%{opacity: 0.7;}
+    80%{opacity: 0.8;}
+    90%{opacity: 0.9;}
+    100%{opacity: 1; }
+}
+/* input in sticky tag */
+#image-location-input-sticky
+{
+    border-radius: 10px;
+    margin: 20px 0px 20px 10px;
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+/*  locate me anchor in sticky tag */
+#image-location-anchor-sticky
+{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    background-color: #ff8826;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 30px;
+    height: 40px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+/*  sign in anchor in sticky tag */
+#sign-in-sticky
+{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-top:40px ;
+    padding-right: 1%;
+    padding-left: 1%;
+    color:#ff8826;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+/*  login anchor from sticky tag */
+#log-in-sticky
+{
+    margin-bottom: 20px;
+    margin-top:40px ;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+/* styling for (find best food near you) and corresponding image*/
+#flex-container-image-h1
+{
+    display: flex;
+    height: 800px;
+    justify-content: space-between;
+}
+/* h1 tag */
+#flex-container-h1
+{
+    margin: 350px 10px 10px 0;
+    font-weight: 600;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+/* img tag */
+#flex-container-img
+{
+    width: 65%;
+}
+/* p tag */
+#flex-container-p
+{
+    color: grey;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+}
+/*  last image on 1 st page */
+#last-image
+{
+    height: 600px;
+    width: 100%;
+    margin: 0;
+}
+/* footer */
+#footer
+{   margin: 0;
+    background-color: black;
+}
+#footer-flexbox
+{   
+    display: flex;
+}
+#footer-logo-image
+{
+    margin: 0;
+    height: 300px;
+    width: 400px;
+    cursor: pointer;
+}
+#company a,#for-restaurants a,#for-restaurants p,#company p
+{
+    color: white;
+    text-decoration: none;
+    
+}
+#for-restaurants p,#company p
+{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    letter-spacing: 2px;
+}
+#company a,#for-restaurants a
+{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+#for-restaurants
+{
+    margin-left: 25%;
+}
+#company
+{
+    padding-left: 30px;
+}
+ul{
+    list-style: none;
+}
+#copyright
+{
+    color: white;
+    font-size:20px;
+}
+#social-media-links
+{
+    margin-left: 40%;
+}
+
+#fb,#insta,#twitter
+{
+    color: white;
+    padding: 0 20px 0 20px;
+}
+#line-to-seperate
+{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+/*  styling for sidenav signup and login */
+#sidenav-signin
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+#close_button_sidenav_signin,#close_button_sidenav_login
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: black;
+    text-decoration: none;
+}
+#signin_heading,#login_heading
+{
+    font-size: 50px;
+    text-align: center;
+    color: #ff8826;
+
+}
+#signin_p_a,#signin_p_terms,#login_p_a,#login_p_terms
+{
+    font-size: 20px;
+    text-align: center;
+    
+}
+#signin_login,#signin_terms,#login_signin,#login_terms
+{
+    color: #ff8826;
+}
+#signin_phone,#signin_email,#signin_cpass,#signin_pass,#signin_name,#login_email,#login_pass
+{
+    border-radius: 10px;
+    border: 2px rgb(170, 163, 163) solid;
+    margin: 10px;
+    padding: 10px 150px 10px 150px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+#signin_pass_show,#login_pass_show
+{
+    text-decoration: none;
+    color: #003cff;
+    padding: 0 0 0 220px;
+    font-weight: 800;
+}
+#signin_submit,#login_submit
+{
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px 215px 10px 215px;
+    background-color: #ff8826;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 25px;
+    border: 2px #ff8826 solid;
+    box-shadow: 0 1px 3px 0 black;
+}
+#sidenav-login
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+#login_pass
+{
+    border: 2px rgb(170, 163, 163) solid;
+    margin: 10px;
+    padding: 10px 150px 10px 150px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+#signin_error
+{
+    display: none;
+    margin-left: 12px;
+    border: 2px red solid;
+    background-color: rgb(255, 137, 137);
+    height: 30px;
+    width: 500px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    overflow: hidden;
+}

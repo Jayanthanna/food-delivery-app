@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Swaraj</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="1stpage.css">
+        <link rel="stylesheet" href="contact us.css">
+        <link rel="stylesheet" href="privacy.css">
+    </head>
+    <body>
+        <!-- div id overlay to lighten whoile screen when login and signin are pressed -->
+        <div id="overlay">
+            <script src="contact us.js"></script>
+            <!-- sticky element appears after page has been scrollen down -->
+            <div id="sticky-home-link">
+                <img src="contact us\logo.jpg" alt="" onclick="home()" id="home-image-sticky-home-link">
+                <form action="javascript:void(0)">
+                    <input type="text" id="image-location-input-sticky-home-link" placeholder="Enter Your City" size="80">
+                    <a id="image-location-anchor-sticky-home-link" href="javascript:void(0)" onclick="locateUser()">Locate me</a>
+                </form>
+                <a href="javascript:void(0)" id="sign-in-sticky-home-link" onclick="open_sidenav_signin()">Sign up</a>
+                <a href="javascript:void(0)" id="log-in-sticky-home-link" onclick="open_sidenav_login()">Log in</a>
+            </div>
+            <div id="privacy-policy">I NEED A LAWYER FOR THIS</div>
+            <!-- footer -->
+            <div id="footer">
+                <div id="footer-flexbox">
+                    <img src="1st page images\swaraj.jpg" alt="error" id="footer-logo-image" onclick="home()">
+                    <div id="for-restaurants">
+                        <ul>
+                            <li><p>FOR RESTAURANT</p>
+                            <li><a href="">Add restaurant</a></li>
+                            <li><a href="">Login restaurant</a></li>
+                            <li><a href="">Sign up to deliver</a></li>
+                            <li><a href="privacy.html">Privacy policy</a></li>
+                        </ul>
+                    </div>
+                    <div id="company">
+                        <ul>
+                            <li><p>COMPANY</p></li>
+                            <li><a href="contact us.html">Contact us</a></li>
+                            <li><a href="">Report fraud</a></li>
+                            <li><a href="">Get gift cards</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="line-to-seperate">
+                    <hr>
+                </div>
+                <div id="social-media-links">
+                    <a href=""><i class="fa fa-facebook-square fa-2x" aria-hidden="true" id="fb"></i></a>
+                    <a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true" id="insta"></i></a>
+                    <a href=""><i class="fa fa-twitter fa-2x" aria-hidden="true" id="twitter"></i></a>
+                </div>
+                <!-- copyright tag -->
+                <div id="copyright">
+                    &copy;swaraj
+                </div>
+            </div>
+        </div>
+        <!--  side navigation when pressed signup -->
+        <div id="sidenav-signin">
+            <a href="javascript:void(0)" class="closebtn" onclick="close_sidenav_signin()" id="close_button_sidenav_signin">&times;</a>
+            <form action="javascript:void(0)">
+                <h1 id="signin_heading">Signup</h1>
+                <p id="signin_p_a">or if you already have an account <a href="javascript:void(0)" id="signin_login" onclick="open_sidenav_login()">login</a></p>
+                <div id="signin_error"></div>
+                <input type="number" id="signin_phone" placeholder="Enter your number" required><br>
+                <input type="text" id="signin_name" placeholder="Enter your name" required><br>
+                <input type="email" id="signin_email" placeholder="Enter your email" pattern="^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$" title="invalid email" required><br>
+                <input type="password" id="signin_pass" placeholder="Enter your password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" title="Password must contain minimum eight characters, at least one uppercase letter, one lowercase letter, one number and one special character:" required>
+                <a href="javascript:void(0)" onclick="show_password()" id="signin_pass_show">Show</a><br>
+                <input type="password" id="signin_cpass" placeholder="Confirm your pasword" required><br>
+                <input type="submit" id="signin_submit" value="Signup" onclick="signin()"><br>
+                <p id="signin_p_terms">By creating account you accept the <a href="privacy.html" id="signin_terms">terms and conditions</a></p>
+            </form>
+        </div>
+        <!-- sidenav when login is pressed -->
+        <div id="sidenav-login">
+            <a href="javascript:void(0)" class="closebtn" onclick="close_sidenav_login()" id="close_button_sidenav_login">&times;</a>
+            <form action="">
+                <h1 id="login_heading">Login</h1>
+                <p id="login_p_a">or if you dont have an account <a href="javascript:void(0)" id="login_signin" onclick="open_sidenav_signin()">Signup</a></p>
+                <div id="login_error"></div>
+                <input type="email" id="login_email" placeholder="Enter your email" required><br>
+                <input type="password" id="login_pass" placeholder="Enter your password" required>
+                <a href="javascript:void(0)" onclick="show_password()" id="login_pass_show">Show</a><br>
+                <input type="submit" id="login_submit" value="login" onclick="login()" required><br>
+                <p id="login_p_terms">By creating account you accept the <a href="javascript:void(0)" id="login_terms">terms and conditions</a></p>
+            </form>
+        </div>
+    </body>
+</html>
+
+

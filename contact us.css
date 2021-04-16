@@ -1,0 +1,162 @@
+#help_image
+{
+    display: block;
+    background-image: url("contact us\\conatct us 2nd image .jpg");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-size: 90px;
+    padding-top: 10px;
+    /* font-size: 100px; */
+}
+/* sticky tag that appears when scrolling down page */
+#sticky-home-link
+{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    /* animation: anim-sticky-home-link 0.5s ease-in;  */
+    height: 100px;
+
+}
+#home-image-sticky-home-link
+{
+    height: 100px;
+    cursor: pointer;
+}
+/* input in sticky tag */
+#image-location-input-sticky-home-link
+{
+    border-radius: 10px;
+    margin: 20px 0px 10px 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+}
+/*  locate me anchor in sticky tag */
+#image-location-anchor-sticky-home-link
+{
+    border-radius: 10px;
+    margin-left: 10px;
+    background-color: #ff8826;
+    margin-top: 20px;
+    padding-top: 25px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 25px;
+    height: 40px;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+    text-decoration: none;
+}
+/*  sign in anchor in sticky tag */
+#sign-in-sticky-home-link
+{
+    margin-left: 10px;
+    margin-top:50px ;
+    padding-right: 1%;
+    padding-left: 1%;
+    color:#ff8826;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+/*  login anchor from sticky tag */
+#log-in-sticky-home-link
+{
+    margin-bottom: 20px;
+    margin-top:50px ;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+#form
+{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    background-color: rgb(255, 250, 250);
+    padding-top: 50px;
+}
+#form_phone,#form_email,#form_name
+{
+    
+    
+    border-radius: 10px;
+    margin: 20px 10% 25px 12%;
+    padding: 20px 400px 20px 400px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 25px;
+    box-shadow: 0 1px 3px 0 black;
+}
+#form_submit
+{
+    border-radius: 10px;
+    margin: 20px 10% 25px 12%;
+    padding: 20px 470px 20px 470px;
+    padding-bottom: 20px;
+    background-color: #ff8826;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 25px;
+    border: 2px #ff8826 solid;
+    box-shadow: 0 1px 3px 0 black;
+}
+#form_country
+{
+    border-radius: 10px;
+    padding: 20px 200px 20px 440px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 25px;
+    box-shadow: 0 1px 3px 0 black;
+    margin: 20px 10% 25px 12%;
+}
+#form_des
+{
+    border-radius: 10px;
+    padding: 100px 410px 100px 410px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: ProximaNova,Arial,Helvetica Neue,sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 25px;
+    box-shadow: 0 1px 3px 0 black;
+    margin: 20px 10% 25px 12%;
+    resize: none;
+}
