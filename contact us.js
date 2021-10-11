@@ -28,7 +28,7 @@ function close_sidenav_login()
 //to go back to home page
 function home()
 {
-    window.open('1stpage.html','_self');
+    window.open('index.html','_self');
 }
 function signin()
 {
